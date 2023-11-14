@@ -1,0 +1,33 @@
+#accounts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto;
+}
+
+#graph:hover {
+    cursor: pointer;
+}
+
+.ring {
+    display: flex;
+    width: 20%;
+    aspect-ratio: 1;
+    border: solid var(--border) 5px;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: var(--background);
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+img {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.ring:hover {
+    cursor: pointer;
+    background-color: var(--hover);
+}

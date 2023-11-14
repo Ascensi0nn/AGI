@@ -1,0 +1,28 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border: solid var(--border) 3px;
+    background-color: var(--background);
+    text-align: center;
+
+}
+
+#grid h5{
+    background-color: var(--hover);
+    margin: 0;
+    padding: 2vh;
+    border-right: solid black 2px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.button {
+    background-color: var(--background);
+    font-size: var(--h5);
+}

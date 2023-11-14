@@ -1,0 +1,12 @@
+#group-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messages {
+    background-color: var(--hover);
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
